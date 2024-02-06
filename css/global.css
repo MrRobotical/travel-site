@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+nav {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+}
+
+.nav-bar__title {
+  font-size: 24px;
+  border: 2px solid red;
+  margin-left: 50px;
+  color: #335576;
+}
+
+.nav-bar__items {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.nav-bar__item {
+  list-style: none;
+  margin-left: 25px;
+}
+
+.nav-bar__link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar__link--highlight {
+  border-bottom: 4px solid #db7a4e;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fefaf5;
+  height: 750px;
+  border: 2px solid red;
+  height: 400px;
+}
+
+.hero__container--left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.hero__title {
+  color: #335576;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.hero-subtitle {
+  margin-bottom: 32px;
+}
+
+.hero__container--right {
+  height: 375px;
+  width: 375px;
+  border: 2px solid red;
+  margin-right: 50px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.hero__img {
+  width: 100%; /* Make the image fill the container's width */
+  height: 100%; /* Make the image fill the container's height */
+  object-fit: contain; /* This prevents the image from stretching and keeps its aspect ratio */
+  border: 2px solid red; /* Optional: If you want the border around the image, otherwise remove */
+}
+
+.hero__button {
+  background-color: #db7a4e;
+  border-radius: 25px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  width: 120px;
+  text-align: center;
+}
+
+/* 
+Recommendations */
+
+.recs__title {
+  color: #335576;
+  font-weight: 600;
+  padding-left: 50px;
+}
+
+.recs__photos--container {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid red;
+  height: 400px;
+}
+
+.recs__photo--container {
+  position: relative;
+  display: inline-block; /* Or 'block', depending on your layout */
+}
+
+.recs__destination--title {
+  position: absolute;
+  top: 90%;
+  left: 55%;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.recs__photo--img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.recs__photo--img:hover {
+  transform: translateY(-10px); /* Moves the card up by 10 pixels */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #fefaf5;
+  margin-top: 75px;
+}
+
+.footer__contact--title {
+  color: #335576;
+  font-weight: 600;
+}
+
+.footer__email--highlight {
+  color: #db7a4e;
+}
+
+.footer__hours--title {
+  color: #335576;
+  font-weight: 600;
+}
+
+.footer__hours--highlight {
+  color: #db7a4e;
+}
+
+.footer__social--title {
+  color: #335576;
+  font-weight: 600;
+}
+
+.footer__social--img {
+  width: auto;
+  height: 30px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.footer__container--social a {
+  text-decoration: none;
+}

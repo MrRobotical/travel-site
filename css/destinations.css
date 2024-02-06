@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+/* Destinations Section */
+
 .destination__container {
   position: relative;
   display: inline-block;
@@ -14,8 +16,6 @@
   height: 100%;
   object-fit: cover;
 }
-
-/* Destination title work */
 
 .destination__title {
   position: absolute;
@@ -31,15 +31,14 @@
 
 .destination__cards--container {
   position: absolute;
-  top: 5%; /* Adjust this value as needed to position the cards correctly over the image */
+  top: 5%;
   left: 0;
   width: 100%;
   display: flex;
-  flex-wrap: wrap; /* Adds wrap for responsiveness */
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center; /* Centers items vertically, if needed */
-  height: 100%; /* Ensure it covers the entire height of the destination__container */
-  z-index: 1; /* Ensures it's above the background image */
+  align-items: center;
+  height: 100%;
 }
 
 .destination__card__itinerary {

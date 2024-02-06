@@ -108,6 +108,10 @@ nav {
 
 /* Recs Section */
 
+.recs {
+  padding-bottom: 75px;
+}
+
 .recs__title {
   color: #335576;
   font-weight: 600;
@@ -158,7 +162,6 @@ nav {
   padding-left: 100px;
   padding-right: 100px;
   background-color: #fefaf5;
-  margin-top: 75px;
 }
 
 .footer__contact--title {

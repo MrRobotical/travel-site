@@ -6,6 +6,7 @@ body {
   font-family: Verdana, Arial, sans-serif;
 }
 
+/* Nav Section */
 nav {
   background-color: #ffffff;
   display: flex;
@@ -16,6 +17,14 @@ nav {
   font-size: 24px;
   margin-left: 50px;
   color: #335576;
+}
+
+.nav-bar__title:hover {
+  color: #db7a4e;
+}
+
+.nav-bar__title--link {
+  text-decoration: none;
 }
 
 .nav-bar__items {
@@ -35,12 +44,15 @@ nav {
   color: black;
 }
 
+.nav-bar__link:hover {
+  color: #db7a4e;
+}
+
 .nav-bar__link--highlight {
   border-bottom: 4px solid #db7a4e;
 }
 
 /* Hero Section */
-
 .hero {
   display: flex;
   justify-content: space-between;
@@ -67,6 +79,21 @@ nav {
   margin-bottom: 32px;
 }
 
+.hero__button {
+  background-color: #db7a4e;
+  border-radius: 25px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  width: 120px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero__button:hover {
+  background-color: #fb6f2e;
+}
+
 .hero__container--right {
   height: 375px;
   width: 375px;
@@ -79,19 +106,7 @@ nav {
   object-fit: contain;
 }
 
-.hero__button {
-  background-color: #db7a4e;
-  border-radius: 25px;
-  padding: 10px;
-  text-decoration: none;
-  color: white;
-  width: 120px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-/* 
-Recommendations */
+/* Recs Section */
 
 .recs__title {
   color: #335576;
@@ -134,6 +149,8 @@ Recommendations */
 .recs__photo--img:hover {
   transform: translateY(-10px); /* Moves the card up by 10 pixels */
 }
+
+/* Footer Section */
 
 .footer {
   display: flex;

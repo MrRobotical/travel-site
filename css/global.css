@@ -26,6 +26,12 @@ nav {
 
 .nav-bar__title--link {
   text-decoration: none;
+  display: flex;
+}
+
+.nav-bar__title--link img {
+  width: 50px;
+  margin-left: 10px;
 }
 
 .nav-bar__items {

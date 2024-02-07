@@ -22,6 +22,16 @@ body {
 .form__title {
   color: #335576;
 }
+
+.form__title-logo--container {
+  display: flex;
+}
+
+.form__title-logo--container img {
+  width: 50px;
+  margin-left: 25px;
+}
+
 form {
   display: flex;
   flex-direction: column;

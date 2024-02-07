@@ -1,10 +1,17 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  min-width: 950px;
+  max-width: 1080px;
+  margin: auto;
+}
+
 /* Hero Section */
 .hero {
   display: flex;
   justify-content: space-between;
   background-color: #fefaf5;
-  height: 750px;
-  height: 400px;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .hero__container--left {

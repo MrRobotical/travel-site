@@ -17,9 +17,7 @@
 
       <ul class="nav-bar__items">
         <li class="nav-bar__item">
-          <a href="../index.html" class="nav-bar__link nav-bar__link--highlight"
-            >Home</a
-          >
+          <a href="../index.html" class="nav-bar__link">Home</a>
         </li>
         <li class="nav-bar__item">
           <a href="hawaii.html" class="nav-bar__link">Hawaii</a>
@@ -30,35 +28,44 @@
         <li class="nav-bar__item">
           <a href="greece.html" class="nav-bar__link">Greece</a>
         </li>
+        <li class="nav-bar__item--book">
+          <a
+            href="pages/form.html"
+            class="nav-bar__link--book nav-bar__link--highlight"
+            >Book Today!</a
+          >
+        </li>
       </ul>
     </nav>
   </section>
 
   <body>
-    <div class="form__container">
-      <div class="form__title-logo--container">
-        <h1 class="form__title">Book Your Trip</h1>
-        <img src="/assets/airplane orange.png" alt="airplane-icon" />
+    <div class="background-container">
+      <div class="form__container">
+        <div class="form__title-logo--container">
+          <h1 class="form__title">Book Your Trip</h1>
+          <img src="/assets/airplane orange.png" alt="airplane-icon" />
+        </div>
+        <form action="" method="">
+          <label for="destination">Choose Your Destination:</label>
+          <select name="destination" id="destination">
+            <option value="hawaii">Hawaii</option>
+            <option value="iceland">Iceland</option>
+            <option value="greece">Greece</option>
+          </select>
+
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
       </div>
-      <form action="" method="">
-        <label for="destination">Choose Your Destination:</label>
-        <select name="destination" id="destination">
-          <option value="hawaii">Hawaii</option>
-          <option value="iceland">Iceland</option>
-          <option value="greece">Greece</option>
-        </select>
-
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit">Submit</button>
-      </form>
     </div>
 
     <section class="footer">

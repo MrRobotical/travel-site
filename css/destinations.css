@@ -2,12 +2,19 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Verdana, Arial, sans-serif;
+  min-width: 950px;
+  max-width: 1080px;
+  margin: auto;
+}
+
 /* Destinations Section */
 
 .destination__container {
   position: relative;
   display: inline-block;
-  width: 100vw;
+  width: 1080px;
   height: 600px;
 }
 

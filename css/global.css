@@ -1,3 +1,4 @@
+/* Global */
 * {
   box-sizing: border-box;
 }
@@ -53,7 +54,6 @@ nav {
 }
 
 /* Footer Section */
-
 .footer {
   display: flex;
   justify-content: space-between;

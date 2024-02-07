@@ -125,6 +125,24 @@ nav {
 
 .footer__container--social a {
   text-decoration: none;
+  align-items: center;
+}
+
+/* Thank you Page */
+
+.thankyou-img {
+  width: 600px;
+  margin-left: 225px;
+  margin-top: 25px;
+}
+
+.confirmation-title {
+  font-size: 48px;
+  color: white;
+  margin-left: 330px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* 

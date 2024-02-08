@@ -1,16 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Verdana, Arial, sans-serif;
-  min-width: 950px;
-  max-width: 1080px;
-  margin: auto;
-}
-
 /* Destinations Section */
-
 .destination__container {
   position: relative;
   display: inline-block;
@@ -48,8 +36,14 @@ body {
   height: 100%;
 }
 
+.card__title {
+  width: 175px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
 .destination__card__itinerary {
-  background-color: azure;
+  background-color: #fefaf5;
   width: 200px;
   height: 300px;
   border-radius: 5px;
@@ -57,10 +51,4 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.card__title {
-  width: 175px;
-  border-bottom: 2px solid black;
-  text-align: center;
 }

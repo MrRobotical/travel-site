@@ -1,13 +1,10 @@
 /* Global */
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: Verdana, Arial, sans-serif;
   min-width: 950px;
   max-width: 1080px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 /* Nav Section */
@@ -98,6 +95,10 @@ nav {
   font-weight: 600;
 }
 
+.footer p {
+  color: #335576;
+}
+
 .footer__email--highlight {
   color: #db7a4e;
 }
@@ -146,7 +147,7 @@ nav {
 }
 
 /* 
-RESPONSIVE WORK */
+RESPONSIVE WORK - IN PROGRESS*/
 
 /* @media (max-width: 840px) {
   .nav-bar__title {

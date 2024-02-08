@@ -1,6 +1,11 @@
-Live app can be viewed here:
+Live app can be viewed here:<br>
 https://legendary-manatee-c814b2.netlify.app
-
-\*This is project for Brainstation.io's software engineering bootcamp.
-
-\*Added a few animations and a form page. Sign-up for easter egg.
+<br>
+\*This is project for Brainstation.io's software engineering bootcamp.<br>
+<br>
+\*Added:<br>
+*A few animations<br>
+*Call to action button in header<br>
+*Favicon<br>
+*Form page<br>
+\*Eater egg with sign-up<br>

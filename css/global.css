@@ -1,8 +1,7 @@
 /* Global */
 body {
   font-family: Verdana, Arial, sans-serif;
-  min-width: 950px;
-  max-width: 1080px;
+  max-width: 1280px;
   margin: auto;
   box-sizing: border-box;
 }
@@ -12,6 +11,12 @@ nav {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
+  /* position: fixed; */
+  width: 1280px;
+}
+
+.nav-bar__items {
+  padding-right: 50px;
 }
 
 .nav-bar__title {

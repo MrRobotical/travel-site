@@ -1,5 +1,6 @@
 /* Hero Section */
 .hero {
+  height: 500px;
   display: flex;
   justify-content: space-between;
   background-color: #fefaf5;
@@ -42,9 +43,10 @@
 }
 
 .hero__container-right {
-  height: 375px;
-  width: 375px;
-  margin-right: 50px;
+  padding-top: 75px;
+  padding-right: 120px;
+  height: 425px;
+  width: 425px;
 }
 
 .hero__img {

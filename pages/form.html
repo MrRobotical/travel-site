@@ -8,41 +8,39 @@
     <link rel="stylesheet" href="../css/form.css" class="rel" />
   </head>
 
-  <section class="nav-bar">
+  <header class="nav-bar">
     <nav>
-      <a href="../index.html" class="nav-bar__title--link">
+      <a href="../index.html" class="nav-bar__title-link">
         <h1 class="nav-bar__title">Travel Site</h1>
         <img src="/assets/airplane orange.png" alt="airplane-icon" />
       </a>
 
       <ul class="nav-bar__items">
         <li class="nav-bar__item">
-          <a href="../index.html" class="nav-bar__link">Home</a>
+          <a href="/index.html" class="nav-bar__link">Home</a>
         </li>
         <li class="nav-bar__item">
-          <a href="hawaii.html" class="nav-bar__link">Hawaii</a>
+          <a href="./hawaii.html" class="nav-bar__link">Hawaii</a>
         </li>
         <li class="nav-bar__item">
-          <a href="iceland.html" class="nav-bar__link">Iceland</a>
+          <a href="./iceland.html" class="nav-bar__link">Iceland</a>
         </li>
         <li class="nav-bar__item">
-          <a href="greece.html" class="nav-bar__link">Greece</a>
+          <a href="./greece.html" class="nav-bar__link">Greece</a>
         </li>
-        <li class="nav-bar__item--book">
-          <a
-            href="pages/form.html"
-            class="nav-bar__link--book nav-bar__link--highlight"
+        <li class="nav-bar__item-btn">
+          <a href="form.html" class="nav-bar__link-btn nav-bar__link--highlight"
             >Book Today!</a
           >
         </li>
       </ul>
     </nav>
-  </section>
+  </header>
 
   <body>
     <div class="background-container">
       <div class="form__container">
-        <div class="form__title-logo--container">
+        <div class="form__title-logo-container">
           <h1 class="form__title">Book Your Trip</h1>
           <img src="/assets/airplane orange.png" alt="airplane-icon" />
         </div>
@@ -69,32 +67,39 @@
       </div>
     </div>
 
-    <section class="footer">
-      <div class="footer__container--contact">
-        <p class="footer__contact--title">Contact</p>
-        <p class="footer__email--highlight">Email</p>
-        <p>info@travelsite.com</p>
+    <footer class="footer">
+      <div class="footer__contact">
+        <p class="footer__contact-title">Contact</p>
+        <p class="footer__email-title">Email</p>
+        <p class="footer__email-address">info@travelsite.com</p>
       </div>
-      <div class="footer__hours">
-        <p class="footer__hours--title">Hours</p>
-        <p></p>
-        <p>
-          <span class="footer__hours--highlight">Monday - Friday:</span> 9am -
-          7pm
-          <br />
-          <span class="footer__hours--highlight">Saturday:</span> 10am - 5pm
-          <br />
-          <span class="footer__hours--highlight">Sunday:</span> Closed
-        </p>
+
+      <div class="footer__hours-container">
+        <div class="footer__weekdays-container">
+          <p class="footer__hours-title">Hours</p>
+          <p class="footer__hours-days">Monday - Friday:</p>
+          <p class="footer_open-hours">9:00 AM - 5:00 PM</p>
+        </div>
+
+        <div class="footer__saturday-container">
+          <p class="footer__hours-days">Saturday:</p>
+          <p class="footer_open-hours">10:00 AM - 4:00 PM</p>
+        </div>
+
+        <div class="footer__sunday-container">
+          <p class="footer__hours-days">Sunday:</p>
+          <p class="footer_open-hours">Closed</p>
+        </div>
       </div>
-      <div class="footer__container--social">
-        <p class="footer__social--title">Social</p>
+
+      <div class="footer__social">
+        <p class="footer__social-title">Social</p>
 
         <a href="https://www.instagram.com">
           <img
             src="../assets/icon-instagram.png"
             alt="Instagram"
-            class="footer__social--img"
+            class="footer__social-img"
           />
         </a>
 
@@ -102,7 +107,7 @@
           <img
             src="../assets/icon-facebook.png"
             alt="Facebook"
-            class="footer__social--img"
+            class="footer__social-img"
           />
         </a>
 
@@ -110,10 +115,10 @@
           <img
             src="../assets/icon-twitter.png"
             alt="Twitter"
-            class="footer__social--img"
+            class="footer__social-img"
           />
         </a>
       </div>
-    </section>
+    </footer>
   </body>
 </html>

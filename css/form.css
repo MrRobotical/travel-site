@@ -35,13 +35,11 @@ body {
   margin-bottom: 5px;
 }
 
-.form__title-logo--container {
+.form__title-logo-container {
   display: flex;
-
-  /* border-bottom: 3px solid black; */
 }
 
-.form__title-logo--container img {
+.form__title-logo-container img {
   width: 90px;
   padding-left: 40px;
   position: relative;
@@ -76,4 +74,21 @@ button {
 }
 button:hover {
   background-color: #2a4564;
+}
+
+/* Thank you Page */
+
+.thankyou-img {
+  width: 600px;
+  margin-left: 225px;
+  margin-top: 25px;
+}
+
+.confirmation-title {
+  font-size: 3rem;
+  color: white;
+  margin-left: 330px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

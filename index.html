@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Travel Site</title>
     <link rel="stylesheet" href="/css/global.css" />
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="icon" href="/favicon.png" type="image/x-icon" />
   </head>
   <body>
-    <section class="nav-bar">
+    <header class="nav-bar">
       <nav>
-        <a href="./index.html" class="nav-bar__title--link">
+        <a href="./index.html" class="nav-bar__title-link">
           <h1 class="nav-bar__title">Travel Site</h1>
           <img src="/assets/airplane orange.png" alt="airplane-icon" />
         </a>
@@ -31,17 +31,15 @@
           <li class="nav-bar__item">
             <a href="pages/greece.html" class="nav-bar__link">Greece</a>
           </li>
-          <li class="nav-bar__item--book">
-            <a href="pages/form.html" class="nav-bar__link--book"
-              >Book Today!</a
-            >
+          <li class="nav-bar__item-btn">
+            <a href="pages/form.html" class="nav-bar__link-btn">Book Today!</a>
           </li>
         </ul>
       </nav>
-    </section>
+    </header>
 
     <section class="hero">
-      <div class="hero__container--left">
+      <div class="hero__container-left">
         <p class="hero__title">
           Travelling Comes <br />
           With Endless Discoveries
@@ -53,7 +51,7 @@
         <a href="./pages/form.html" class="hero__button">Get started</a>
       </div>
 
-      <div class="hero__container--right">
+      <div class="hero__container-right">
         <img src="/assets/hero.png" class="hero__img" alt="" />
       </div>
     </section>
@@ -61,55 +59,62 @@
     <section class="recs">
       <p class="recs__title">Recommendations</p>
 
-      <div class="recs__photos--container">
-        <div class="recs__photo--container">
+      <div class="recs__photos-container">
+        <div class="recs__photo-container">
           <a href="pages/hawaii.html">
-            <img src="/assets/hawaii.jpg" class="recs__photo--img" alt="" />
+            <img src="/assets/hawaii.jpg" class="recs__photo-img" alt="" />
           </a>
-          <div class="recs__destination--title">Hawaii</div>
+          <div class="recs__destination-title">Hawaii</div>
         </div>
-        <div class="recs__photo--container">
+        <div class="recs__photo-container">
           <a href="pages/iceland.html">
-            <img src="/assets/iceland.jpg" class="recs__photo--img" alt="" />
+            <img src="/assets/iceland.jpg" class="recs__photo-img" alt="" />
           </a>
-          <div class="recs__destination--title">Iceland</div>
+          <div class="recs__destination-title">Iceland</div>
         </div>
 
-        <div class="recs__photo--container">
+        <div class="recs__photo-container">
           <a href="pages/greece.html">
-            <img src="/assets/greece.jpg" class="recs__photo--img" alt="" />
+            <img src="/assets/greece.jpg" class="recs__photo-img" alt="" />
           </a>
-          <div class="recs__destination--title">Greece</div>
+          <div class="recs__destination-title">Greece</div>
         </div>
       </div>
     </section>
 
-    <section class="footer">
-      <div class="footer__container--contact">
-        <p class="footer__contact--title">Contact</p>
-        <p class="footer__email--highlight">Email</p>
-        <p>info@travelsite.com</p>
+    <footer class="footer">
+      <div class="footer__contact">
+        <p class="footer__contact-title">Contact</p>
+        <p class="footer__email-title">Email</p>
+        <p class="footer__email-address">info@travelsite.com</p>
       </div>
-      <div class="footer__hours">
-        <p class="footer__hours--title">Hours</p>
-        <p></p>
-        <p>
-          <span class="footer__hours--highlight">Monday - Friday:</span> 9am -
-          7pm
-          <br />
-          <span class="footer__hours--highlight">Saturday:</span> 10am - 5pm
-          <br />
-          <span class="footer__hours--highlight">Sunday:</span> Closed
-        </p>
+
+      <div class="footer__hours-container">
+        <div class="footer__weekdays-container">
+          <p class="footer__hours-title">Hours</p>
+          <p class="footer__hours-days">Monday - Friday:</p>
+          <p class="footer_open-hours">9:00 AM - 5:00 PM</p>
+        </div>
+
+        <div class="footer__saturday-container">
+          <p class="footer__hours-days">Saturday:</p>
+          <p class="footer_open-hours">10:00 AM - 4:00 PM</p>
+        </div>
+
+        <div class="footer__sunday-container">
+          <p class="footer__hours-days">Sunday:</p>
+          <p class="footer_open-hours">Closed</p>
+        </div>
       </div>
-      <div class="footer__container--social">
-        <p class="footer__social--title">Social</p>
+
+      <div class="footer__social">
+        <p class="footer__social-title">Social</p>
 
         <a href="https://www.instagram.com">
           <img
             src="./assets/icon-instagram.png"
             alt="Instagram"
-            class="footer__social--img"
+            class="footer__social-img"
           />
         </a>
 
@@ -117,7 +122,7 @@
           <img
             src="./assets/icon-facebook.png"
             alt="Facebook"
-            class="footer__social--img"
+            class="footer__social-img"
           />
         </a>
 
@@ -125,10 +130,10 @@
           <img
             src="./assets/icon-twitter.png"
             alt="Twitter"
-            class="footer__social--img"
+            class="footer__social-img"
           />
         </a>
       </div>
-    </section>
+    </footer>
   </body>
 </html>

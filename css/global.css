@@ -26,8 +26,8 @@ nav {
 
 .nav-bar__title {
   font-size: 1.5rem;
-  margin-left: 50px;
   color: #335576;
+  padding-left: 75px;
 }
 
 .nav-bar__title:hover {
